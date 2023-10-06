@@ -1,0 +1,19 @@
+spring:
+    data:
+        mongodb:
+            database: test
+            uri: mongodb://localhost:27017
+    datasource:
+        driverClassName: org.postgresql.Driver
+        password: ''
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: postgres
+    jpa:
+        hibernate:
+            ddl-auto: update
+    kafka:
+        bootstrap-servers: localhost:9092
+        topic: Audit
+    redis:
+        host: localhost
+        port: 6379
